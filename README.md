@@ -3,6 +3,10 @@ RoBERTa-base was finetuned on SQUAD v1 question-answering dataset. Please visit 
 
 For BERT-base-cased finetuned on SQUAD v1 question-answering: https://huggingface.co/sooolee/bert-finetuned-squad-v1
 
+## Model Description and Limitations
+* The model "extracts" the relevant information from the context to answer a question. 
+* At the moment, the model cannot handle a long context. 
+
 ## Training Hyperparameters
 The following hyperparameters were used during training:
 
